@@ -1,0 +1,8 @@
+baseURL = "/"
+UglyURLs = true
+languageCode = "en-us"
+title = "test site"
+theme = "hugo-theme-docdock"
+
+[Indexes]
+tag = "tags"
