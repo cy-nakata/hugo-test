@@ -2,7 +2,7 @@
 <ul class="tags">
     {{ range $name, $value := $.Site.Taxonomies.tags }}
     <li>
-        <a href="{{ $.Site.BaseURL }}/tags/{{ $name }}.html">
+        <a href="/tags/{{ $name }}.html">
         {{ $name }}&nbsp;<span class="badge" style="display:inline;">{{ .Count }}</span>
         </a>
     </li>

@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-{{ .Content }}
+{{ safeHTML (replace .Content "$kintone$" .Site.Params.kintone) }}
 
 <footer class=" footline" >
 	{{with .Params.LastModifierDisplayName}}

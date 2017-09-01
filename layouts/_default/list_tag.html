@@ -1,8 +1,18 @@
+<style>
+.tag-post {
+  margin: auto;
+  width: 800px;
+}
+.tags_summary {
+  height: 3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+</style>
 <div class="tag-post">
     <div><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-    <div>
+    <div class="tags_summary">
         {{ .Summary }}
     </div>
 </div>
- 
-<hr>

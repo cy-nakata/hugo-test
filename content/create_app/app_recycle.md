@@ -18,7 +18,7 @@ tags = ["アプリ"]
 {{% /notice %}}
 
 #### ほかのアプリを再利用して新しく作成するには：
-1. kintoneのポータルで ![+アイコン](/img/add.png?classes=inline) アイコン をクリックします。
+1. $kintone$のポータルで ![+アイコン](/img/add.png?classes=inline) アイコン をクリックします。
 ![+アイコン](/img/add_app_store_img02.png)
 1. [ほかのアプリを再利用]をクリックします。
 1. 再利用するアプリの[アプリの再利用]をクリックします。<br>

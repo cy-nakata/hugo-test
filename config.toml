@@ -4,5 +4,9 @@ languageCode = "en-us"
 title = "test site"
 theme = "hugo-theme-docdock"
 
+[Params]
+region = "jp"
+kintone = "kintone"
+
 [Indexes]
 tag = "tags"

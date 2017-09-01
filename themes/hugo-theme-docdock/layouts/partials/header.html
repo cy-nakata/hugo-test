@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     {{ .Hugo.Generator }}
     {{ partial "meta.html" . }}
-    <title>{{ .Title }} :: {{ .Site.Title }}</title>
+    <title>{{ replace .Title "$kintone$" .Site.Params.kintone }} :: {{ .Site.Title }}</title>
     <link rel="shortcut icon" href="{{"favicon/kintone.ico" | relURL}}" type="image/x-icon" />
     <link href="{{"css/nucleus.css" | relURL}}" rel="stylesheet">
     <link href="{{"css/font-awesome.min.css" | relURL}}" rel="stylesheet">
@@ -60,7 +60,7 @@
                 </span>
                 <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
                 <span class="links">
-                {{ template "breadcrumb" dict "page" . "value" .Title }}   
+                {{ template "breadcrumb" dict "page" . "value" (replace .Title "$kintone$" .Site.Params.kintone) }}   
                 </span>
             </div>
             {{ partial "toc.html" . }}
@@ -69,13 +69,13 @@
         {{if .Params.tags }}
           <div id="tags">
             {{ range $index, $tag := .Params.tags }}
-              <a class="label label-default" href="{{$.Site.BaseURL}}/tags/{{ $tag | urlize }}">{{ $tag }}</a>
+              <a class="label label-default" href="/tags/{{ $tag | urlize }}.html">{{ $tag }}</a>
             {{ end }}
           </div>
         {{end}}
         <div id="body-inner">
           {{if not .IsHome}}
-            <h1>{{.Title}}</h1>
+            <h1>{{replace .Title "$kintone$" .Site.Params.kintone}}</h1>
           {{end}}
 
 {{define "breadcrumb"}}
