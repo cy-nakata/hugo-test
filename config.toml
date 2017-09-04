@@ -5,7 +5,7 @@ title = "test site"
 theme = "hugo-theme-docdock"
 
 [Params]
-region = "jp"
+region = "cn"
 kintone = "kintone"
 
 [Indexes]
