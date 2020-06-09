@@ -1,0 +1,69 @@
+baseurl = "https://get.kintone.help/general/"
+UglyURLs = true
+theme = "hugo-template"
+metadataformat = "yaml"
+DefaultContentLanguage = "ja"
+defaultContentLanguageInSubdir= true
+
+[params]
+product = "slash"
+domain = "get.kintone.help"
+TargetRegion = "US"
+kintone = "Kintone"
+service = "Kintone"
+cybozu_com = "kintone.com"
+favicon = "img/favicon_us.png"
+langSelector = false
+custom_css = "stylesheets/theme_us.css"
+
+[taxonomies]
+
+[blackfriday]
+smartypants = false
+
+[Languages]
+[Languages.en]
+weight = 1
+title = "Users & Administration Help"
+LanguageName = "English"
+contentDir = "content/en"
+search_all = "Users & Administration"
+search_categories = "Users & Administration,Kintone,Free Trial and Purchasing,All Articles"
+footer_links = "csv/links_en_US.csv"
+languageCode = "en-us"
+logo = "img/kintone_logo_us.svg"
+store = "Kintone Store"
+#Yakumoでは「Kintone Store」の表示がNG
+slash_help = "Users & Administration Help"
+CorpName = "Kintone Corp"
+slash = "Kintone Users & System"
+
+[Languages.ja]
+weight = 2
+title = "Kintone共通管理 ヘルプ"
+LanguageName = "日本語"
+contentDir = "content/ja"
+search_all = "Kintone共通管理 ヘルプ"
+search_categories = "Kintone共通管理 ヘルプ,Kintone ヘルプ,Kintoneの試用や購入に関するヘルプ,すべての記事（US）"
+footer_links = "csv/links_ja_US.csv"
+languageCode = "ja-us"
+logo = "img/kintone_logo_us.svg"
+store = "Kintone Store"
+slash_help = "Kintone共通管理 ヘルプ"
+CorpName = "Kintone Corp"
+slash = "Kintone"
+
+#[Languages.zh] ※USでは中国語版無し
+#weight = 3
+#title = "Kintone 帮助"
+#LanguageName = "中文(简体)"
+#contentDir = "content/zh"
+#search_all = "Kintone 帮助"
+#search_categories = "Kintone 帮助"
+#footer_links = "csv/links_zh_US.csv"
+#languageCode = "zh-us"
+#logo = "img/kintonehelp_zh.svg"
+#store = "Kintone Store"
+#slash_help = "cybozu.com 帮助"
+#CorpName = "Kintone Corp"
+#slash = "Kintone"

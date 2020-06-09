@@ -1,3 +1,0 @@
-$( document ).ready(function() {
-  document.body.innerHTML = document.body.innerHTML.split('kintone').join('test');
-});

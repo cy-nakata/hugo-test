@@ -1,0 +1,68 @@
+baseurl = "https://jp.cybozu.help/general/"
+UglyURLs = true
+theme = "hugo-template"
+metadataformat = "yaml"
+DefaultContentLanguage = "ja"
+defaultContentLanguageInSubdir= true
+
+[params]
+product = "slash"
+domain = "jp.cybozu.help"
+TargetRegion = "JP"
+kintone = "kintone"
+service = "cybozu.com"
+cybozu_com = "cybozu.com"
+favicon = "img/favicon_slash.ico"
+langSelector = true
+
+[taxonomies]
+
+[blackfriday]
+smartypants = false
+
+[Languages]
+[Languages.en]
+weight = 1
+title = "cybozu.com Help"
+LanguageName = "English"
+contentDir = "content/en"
+search_all = "cybozu.com Help"
+search_categories = "cybozu.com Help"
+footer_links = "csv/links_en_JP.csv"
+languageCode = "en-jp"
+logo = "img/comhelp_en.svg"
+store = "cybozu.com Store"
+slash_help = "cybozu.com Help"
+CorpName = "Cybozu, Inc."
+slash = "Users & System"
+
+[Languages.ja]
+weight = 2
+title = "cybozu.com ヘルプ"
+LanguageName = "日本語"
+contentDir = "content/ja"
+site_title = "cybozu.com ヘルプ"
+search_all = "cybozu.com ヘルプ"
+search_categories = "cybozu.com ヘルプ"
+footer_links = "csv/links_ja_JP.csv"
+languageCode = "ja-jp"
+logo = "img/comhelp_ja.svg"
+store = "サイボウズドットコム ストア"
+slash_help = "cybozu.com ヘルプ"
+CorpName = "サイボウズ"
+slash = "cybozu.com"
+
+[Languages.zh]
+weight = 3
+title = "cybozu.com 帮助"
+LanguageName = "中文(简体)"
+contentDir = "content/zh"
+search_all = "cybozu.com 帮助"
+search_categories = "cybozu.com 帮助"
+footer_links = "csv/links_zh_JP.csv"
+languageCode = "zh-jp"
+logo = "img/comhelp_zh.svg"
+store = "cybozu.com Store"
+slash_help = "cybozu.com 帮助"
+CorpName = "Cybozu, Inc."
+slash = "cybozu.com"

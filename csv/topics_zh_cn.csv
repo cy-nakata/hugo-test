@@ -1,0 +1,10 @@
+﻿忘记登录名称或密码时,/general/zh/user/list_start/forgot_password.html
+忘记管理员账号或密码时,/general/zh/admin/list_administrator/admin_account.html
+忘记登录URL时,/general/zh/user/list_start/forgot_url.html
+查看/更改个人资料,/general/zh/user/list_personal/profile.html
+更改登录名称或密码,/general/zh/user/list_personal/auth.html
+账号被锁定后,/general/zh/admin/list_security/unlock_account.html
+关于登录名称和密码的保存,/general/zh/user/list_personal/login_save.html
+从公司外访问服务,/general/zh/user/list_access/remote.html
+使用Internet Explorer，无法正常打开cybozu.com的页面时,/general/zh/user/list_start/ie_compatible.html
+管理员的种类,/general/zh/admin/list_administrator/list_type_of_administrator/administrator.html

@@ -1,0 +1,88 @@
+---
+title: "ユーザー情報の入力制限値"
+weight: 100
+---
+
+ユーザー情報の各項目に入力できる最大文字数は下記のとおりです。  
+文字以外を入力する項目は下記の一覧に記載していません。  
+
+<table>
+  <tbody>
+  <tr>
+  <th width=200>項目</th>
+  <th width=200>制限値</th>
+  </tr>
+  <tr>
+  <td>ログイン名</td>
+  <td>128文字</td>
+  </tr>
+  <tr>
+  <td>表示名</td>
+  <td>128文字</td>
+  </tr>
+  <tr>
+  <td>新ログイン名</td>
+  <td>128文字</td>
+  </tr>
+  <tr>
+  <td>パスワード</td>
+  <td>128文字</td>
+  </tr>
+  <tr>
+  <td>別言語での表示名</td>
+  <td>128文字</td>
+  </tr>
+  <tr>
+  <td>姓</td>
+  <td>64文字</td>
+  </tr>
+  <tr>
+  <td>名</td>
+  <td>64文字</td>
+  </tr>
+  <tr>
+  <td>よみがな（姓）</td>
+  <td>64文字</td>
+  </tr>
+  <tr>
+  <td>よみがな（名）</td>
+  <td>64文字</td>
+  </tr>
+  <tr>
+  <td>Emailアドレス</td>
+  <td>256文字</td>
+  </tr>
+  <tr>
+  <td>タイムゾーン</td>
+  <td>256文字</td>
+  </tr>
+  <tr>
+  <td>URL</td>
+  <td>256文字</td>
+  </tr>
+  <tr>
+  <td>電話番号</td>
+  <td>100文字</td>
+  </tr>
+  <tr>
+  <td>内線</td>
+  <td>100文字</td>
+  </tr>
+  <tr>
+  <td>モバイルフォン</td>
+  <td>100文字</td>
+  </tr>
+  <tr>
+  <td>従業員ID</td>
+  <td>100文字</td>
+  </tr>
+  <tr>
+  <td>コメント</td>
+  <td>1000文字</td>
+  </tr>
+  <tr>
+  <td>Skype名</td>
+  <td>32文字</td>
+  </tr>
+  </tbody>
+</table>

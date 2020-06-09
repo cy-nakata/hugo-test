@@ -1,0 +1,4 @@
+/general/*  /:splat  200!
+/ja/*  /ja/404.html 404
+/en/*  /en/404.html 404
+/zh/*  /zh/404.html 404

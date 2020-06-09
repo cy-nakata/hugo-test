@@ -1,0 +1,10 @@
+﻿ログイン名やパスワードがわからない場合,/general/ja/user/list_start/forgot_password.html
+管理者のアカウントやパスワードを忘れた場合,/general/ja/admin/list_administrator/admin_account.html
+ログインURLがわからない場合,/general/ja/user/list_start/forgot_url.html
+プロフィールを確認・変更する,/general/ja/user/list_personal/profile.html
+ログイン名やパスワードを変更する,/general/ja/user/list_personal/auth.html
+アカウントがロックされたら,/general/ja/admin/list_security/unlock_account.html
+ログイン名とパスワードの保存,/general/ja/user/list_personal/login_save.html
+オフィス外からサービスにアクセスする,/general/ja/user/list_access/remote.html
+Internet Explorerで、画面が正しく表示されない場合,/general/ja/user/list_start/ie_compatible.html
+管理者の種類,/general/ja/admin/list_administrator/list_type_of_administrator/administrator.html
